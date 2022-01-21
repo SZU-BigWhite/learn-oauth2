@@ -1,0 +1,9 @@
+server:
+  port: 3011
+spring:
+  application:
+    name: oauth2-server
+springdoc:
+  api-docs:
+    path: /swagger-ui.html
+  packages-to-scan: com.bigwhite.oauth2.controller
